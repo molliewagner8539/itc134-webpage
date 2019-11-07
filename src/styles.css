@@ -97,12 +97,12 @@ body {
 }
 
 #navbar a:hover {
-  background-color: rgb(160, 204, 204);
+  background-color: rgb(7, 99, 99);
   color: black;
 }
 
 #navbar a.active {
-  background-color: rgb(113, 175, 175);
+  background-color: rgb(52, 134, 134);
   color: black;
 }
 
