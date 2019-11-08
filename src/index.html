@@ -2,154 +2,76 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-* {
-  box-sizing: border-box;
-}
 
-body {
-  font-family: Georgia;
-  padding: 10px;
-  background:  #5c8a8a;
-}
-.header {
-  padding: 30px;
-  text-align: center;
-  background:  #b3cccc;
-}
-.header h1 {
-  font-size: 50px;
-}
-.topnav {
-  overflow: hidden;
-  background-color: #666666;
-}
-.topnav a {
-  float: left;
-  display: block;
-  color: #b3cccc;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-.topnav a:hover {
-  background-color: #ff99cc;
-  color: black;
-}
-.leftcolumn {   
-  float: left;
-  width: 75%;
-}
-.rightcolumn {
-  float: left;
-  width: 25%;
-  background-color: #5c8a8a;
-  padding-left: 20px;
-}
-.fakeimg {
-  background-color:  white;
-  width: 100%;
-  padding: 20px;
-}
-.card {
-  background-color:  #b3cccc;
-  padding: 20px;
-  margin-top: 20px;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.footer {
-  padding: 20px;
-  text-align: center;
-  background:  #b3cccc;
-  margin-top: 20px;
-}
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
-    width: 100%;
-    padding: 0;
-  }
-}
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
-}
-</style>
 </head>
 <body>
 
-<div class="header">
+<div class="header" id="topDiv">
   <h1>Game Developing </h1>
   <p>Could it be a career for you?</p>
 </div>
 
-<div class="topnav">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#" style="float:right">Link</a>
-</div>
+<div id="navbar">
+    <font style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
+      <a class="active" href="#topDiv">Top</a>
+      <a href="#div1">Development</a>
+      <a href="#div2">Game Engines</a>
+    </font>
+  </div>
 
 <div class="row">
   <div class="leftcolumn">
    
     <div class="card">
-   <h2>Design</h2>
+      <h2>Design</h2>
       <h5>Designing, animation, graphics & visuals</h5>
- 
-      <ul> 
-          <li>Content Designer</li>
-          <li>Texture Artist</li>
-          <li>Designer</li>
-          <li>Sound Designer</li>
-          <li>Web Designer</li>
-          <li>Level Designer</li>
-          <li>Concept Designer</li>
-           <li>Lead Designer</li>
-          <li>Background Artist</li>
-          <li>Visual Effects Artist</li>
-          <li>Character Artist</li>
-          <li>Illustrator</li>
-          <li>Animator</li>
-          <li>Graphic Designer</li>
-      </ul>
-      
     
+     
+      
+      <ul> 
+          <li>Graphic Designer  </li>
+         <li>Animator</li> 
+         <li>Illustrator</li>
+        <li>Character Artist </li>
+        <li> Visual Effects Artist</li>
+         <li>Background Artist </li>
+        <li> Lead Designer</li>
+        <li> Content Designer</li>
+        <li> Texture Artist </li>
+         <li>Designer </li>
+         <li>Sound Designer</li>
+        <li>Web Designer </li>
+         <li>Level Designer </li>
+        <li> Concept Designer</li>
+ 
     </div>
 
  
- <div class="card">
+ <div class="card" id="div1">
       <h2>Development</h2>
       <h5>Writing, audio, producing, testing & engineering</h5>
      
-     
       <ul> 
-          <li>Modeler</li>
-          <li>Publication</li>
-          <li>Document</li>
-          <li>Game Developer</li>
-          <li>Game Tester</li>
-          <li>Audio Worker</li>
-          <li>Multimedia Author</li>
-           <li>Quality Assurance</li>
-          <li>Specialist</li>
-          <li>Game Mechanic</li>
-          <li>Game Writer</li>
-          <li>Tester</li>
-          <li>Desktop Publishing</li>
-          <li>Game Producer</li>
+          <li>Modeler </li>
+         <li>Publication</li> 
+         <li>Document </li>
+        <li> Game Developer </li>
+        <li> Game Tester </li>
+         <li>Audio Worker </li>
+        <li> Multimedia Author </li>
+        <li> Quality Assurance </li>
+        <li> Specialist </li>
+         <li>Game Mechanic </li>
+         <li>Game Writer </li>
+        <li> Tester </li>
+         <li>Desktop Publishing </li>
+        <li> Game Producer</li>
       </ul>
+
     </div>
     
-    <div class="card">
+    <div class="card" id="div2">
       <h3>Game Development Engines</h3>
       <p>There are many different types of game engines used to create games.</p>
       <ul> 
@@ -163,15 +85,7 @@ body {
       </ul>
     </div>
   </div>
-  <div class="rightcolumn">
-    <div class="card">
-     <h4>Salary</h4>
-      <p>The annual salary that anyobody in the develpoment of a game varies depending on the department
-         <ul>
-           <li>Average - $101,932</li>
-           <li>Range - $66,000 – $148,000 </li>
-         </ul>
-      </p>
+
     </div>
   </div>
 </div>
