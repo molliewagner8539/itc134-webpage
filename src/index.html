@@ -30,19 +30,19 @@
      
       
       <ul> 
-          <li>Graphic Designer  </li>
-         <li>Animator</li> 
-         <li>Illustrator</li>
+      	<li>Graphic Designer  </li>
+        <li>Animator</li> 
+        <li>Illustrator</li>
         <li>Character Artist </li>
         <li> Visual Effects Artist</li>
-         <li>Background Artist </li>
+        <li>Background Artist </li>
         <li> Lead Designer</li>
         <li> Content Designer</li>
         <li> Texture Artist </li>
-         <li>Designer </li>
-         <li>Sound Designer</li>
+        <li>Designer </li>
+        <li>Sound Designer</li>
         <li>Web Designer </li>
-         <li>Level Designer </li>
+        <li>Level Designer </li>
         <li> Concept Designer</li>
         <div id="div1"></div>
  
@@ -74,36 +74,31 @@
     </div>
     
     <div class="card">
-				<h3>Game Development Engines</h3>
-				<p>There are many different types of game engines used to create games.</p> <br>
-				<hr>
-				<ul>
-					<li id="divuni"><u>Unity</u></li>
-					<img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Official_unity_logo.png" alt="unity logo" width="400" height="146">
-					<p>- Unity uses C#, JavaScript, and Boo (type of CLI language)</p><br>
-					<hr><br>
-
-					<li><u>Construct 2</u></li>
-					<br><img src="https://xgamedev.com/img/fslogo/construct2-logo.png" alt="construct 2 logo" width="225" height="150">
-					<p>- Construct 2 is easy to learn and does not need any knowledge of coding.</p><br>
-					<hr><br>
-
-					<li><u>Stencyl</u></li> <br>
-					<img src="https://gameanalytics.com/wp-content/uploads/2018/11/stencyl-cover.png" alt="Stencyl logo" width="250" height="150">
-					<p>- Stencyl uses the Haxe programming language.</p><br>
-					<hr><br>
-
-					<li><u>Godot</u></li><br>
-					<img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Godot_logo.svg" alt="Godot logo" width="250" height="150">
-					<p>- Godot uses C++ and C#.</p><br>
-					<hr><br>
-
-					<li><u>Game Maker Studio 2</u></li>
-					<img src="https://coal.yoyogames.com/brand/GMS2_PrimaryLogo/Primary2/GMS2_Primary_BlackTransparent.png" alt="Game Maker Studio 2" width="350" height="200">
-					<p>- Game Maker Studio uses their own language called Game maker Language.</p><br>
-					<hr><br>
-
-					<li><u>Gamefroot</u></li>
+	    <h3>Game Development Engines</h3>
+	    <p>There are many different types of game engines used to create games.</p> <br>
+	    <hr>
+	    <ul>
+		    <li id="divuni"><u>Unity</u></li>
+		    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Official_unity_logo.png" alt="unity logo" width="400" height="146">
+		    <p>- Unity uses C#, JavaScript, and Boo (type of CLI language)</p><br>
+		    <hr><br>
+		    <li><u>Construct 2</u></li>
+		    <br><img src="https://xgamedev.com/img/fslogo/construct2-logo.png" alt="construct 2 logo" width="225" height="150">
+		    <p>- Construct 2 is easy to learn and does not need any knowledge of coding.</p><br>
+		    <hr><br>
+		    <li><u>Stencyl</u></li> <br>
+		    <img src="https://gameanalytics.com/wp-content/uploads/2018/11/stencyl-cover.png" alt="Stencyl logo" width="250" height="150">
+		    <p>- Stencyl uses the Haxe programming language.</p><br>
+		    <hr><br>
+		    <li><u>Godot</u></li><br>
+		    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Godot_logo.svg" alt="Godot logo" width="250" height="150">
+		    <p>- Godot uses C++ and C#.</p><br>
+		    <hr><br>
+		    <li><u>Game Maker Studio 2</u></li>
+		    <img src="https://coal.yoyogames.com/brand/GMS2_PrimaryLogo/Primary2/GMS2_Primary_BlackTransparent.png" alt="Game Maker Studio 2" width="350" height="200">
+		    <p>- Game Maker Studio uses their own language called Game maker Language.</p><br>
+		    <hr><br>
+		    <li><u>Gamefroot</u></li>
 					<img src="https://bit.ly/2KhmjPH" alt="Gamefroot logo" width="250" height="250">
 					<p>- Gamefroot does not require any coding language knowledge.</p><br>
 					<hr><br>
@@ -153,6 +148,19 @@
     </div>
   </div>
 </div>
+<script>
+		window.onscroll = function () { myFunction() };
 
+    let navbar = document.getElementById("navbar");
+    let sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+	</script>
 </body>
 </html>
